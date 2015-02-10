@@ -8,8 +8,6 @@ include 'config.php';
 
 error_reporting (E_ALL ^ E_NOTICE);
 
-echo 'Hey there!';
-
 $post = (!empty($_POST)) ? true : false;
 
 if($post)
