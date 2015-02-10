@@ -35,7 +35,7 @@ $mail = mail(WEBMASTER_EMAIL, $subject, $message,
 
 if($mail)
 {
-echo 'OK';
+echo "Thanks! We'll be in touch!";
 }
 
 }
